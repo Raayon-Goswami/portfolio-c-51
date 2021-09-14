@@ -1,0 +1,41 @@
+h1{
+    
+    color:#5db7eb;
+}
+*{
+  
+}
+p,h2{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;    
+    background-color:#ce3131
+}
+.menu{
+    color: #80ff00;
+    border:solid #6a9eff;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end   ;
+}
+
+body{
+    background-color: #b0b0b0;
+}
+
+h1:hover{
+    opacity: 0.0;
+    transition: 1s;
+}
